@@ -25,10 +25,6 @@ class SplashActivity : AppCompatActivity() {
         ivLogo.startAnimation(anim)
 //Chama a próxima tela após 3,5 segundos definido na SPLASH_DISPLAY_LENGTH
         Handler().postDelayed({
-            //TESTE - AQUI PRECISARÁ VERIFICAR SE O USUARIO PEDIU PARA FICAR CONNECTADO, SE SIM,
-            //VERIFICAR O LOGIN DELE (COM O CÓDIGO DO FIREBASE) E SE TUDO ESTIVER OK, IR DIRETO
-            //PARA O MAIN
-
             val proximaTela = Intent(this, LoginActivity::class.java)
             startActivity(proximaTela)
             finish()

@@ -29,7 +29,7 @@ class InsertActivity : AppCompatActivity() {
             if (mAuth.currentUser != null) {
                 val filme = Filme()
                 filme.title = inputTitle.text.toString()
-                filme.usuario = "eduardo.matoso@gmail.com"
+                filme.usuario = user_email!!
                 val call = RetrofitInitializer().filmeService().addNewFilm(filme)
 
                 call.enqueue(object: Callback<Filme> {

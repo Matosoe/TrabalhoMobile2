@@ -24,11 +24,10 @@ class EditActivity : AppCompatActivity() {
 
 
         btEditSave.setOnClickListener{
-
-            val idFilme = 1
+            val idFilme = inputEditId.text.toString().toInt()
             var filme: Filme = Filme()
             filme.title = inputNewTitle.text.toString()
-            filme.usuario = "diego.smagnotto@gmail.com"
+            filme.usuario = user_email!!
 
             val call = RetrofitInitializer().filmeService().editFilm(idFilme, filme)
 

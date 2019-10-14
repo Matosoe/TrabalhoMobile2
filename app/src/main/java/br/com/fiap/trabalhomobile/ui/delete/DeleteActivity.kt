@@ -22,7 +22,7 @@ class DeleteActivity : AppCompatActivity() {
         var user_email = bundle!!.getString("USER_EMAIL")
 
         btDeleteDelete.setOnClickListener{
-            val idFilme = 1
+            val idFilme = inputDeleteId.text.toString().toInt()
             val call = RetrofitInitializer().filmeService().deleteFilm(idFilme)
 
             call.enqueue(object: Callback<String> {

@@ -1,0 +1,45 @@
+<resources>
+    <string name="appName">Imovie</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_login">Conectar</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_sign_in">Cadastro</string>
+    <string name="clapperboard">claquete</string>
+    <string name="eMail">e-mail</string>
+    <string name="password">senha</string>
+    <string name="login">Conectar</string>
+    <string name="signInMessage">Ainda não tem uma conta? Clique aqui.</string>
+    <string name="stayConnected">Manter-se conectado?</string>
+    <string name="newUser">Novo Usuário</string>
+    <string name="newAccount">Nova Conta</string>
+    <string name="insert">Inserir</string>
+    <string name="list">Lista</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Deletar</string>
+    <string name="exit">Sair</string>
+    <string name="about">Sobre</string>
+    <string name="title">Título</string>
+    <string name="gender">Gênero</string>
+    <string name="save">Salvar</string>
+    <string name="back">Voltar</string>
+    <string name="title_activity_list">Lista</string>
+    <string name="title_activity_edit">Editar</string>
+    <string name="title_activity_delete">Deletar</string>
+    <string name="actual_title">Título Atual</string>
+    <string name="new_title">Novo Título</string>
+    <string name="new_gender">Novo Genero</string>
+    <string name="title_Activity_About">Sobre</string>
+    <string name="About">Sobre</string>
+    <string name="menu">Menu</string>
+    <string name="developers">Desenvolvedores</string>
+    <string name="diego">Diego Saraiva</string>
+    <string name="bruno">Bruno Gea</string>
+    <string name="eduardo">Eduardo Matoso</string>
+    <string name="felipe">Felipe da Costa Silva</string>
+    <string name="rafael">Rafael Lagreca</string>
+    <string name="version">Versão 1.0</string>
+    <string name="title_activity_insert">Inserir</string>
+    <string name="id">Id</string>
+
+</resources>

@@ -28,11 +28,6 @@ class LoginActivity : AppCompatActivity() {
         setContentView(br.com.fiap.trabalhomobile.R.layout.activity_login)
         mAuth = FirebaseAuth.getInstance()
 
-        //TESTE - reativar quando for a versão final
-
-        /*if (mAuth.currentUser != null) {
-            goToHome()
-        }*/
         btLogin.setOnClickListener {
             mAuth.signInWithEmailAndPassword(
                     inputLoginEmail.text.toString(),
