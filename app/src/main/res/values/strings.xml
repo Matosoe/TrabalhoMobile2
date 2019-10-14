@@ -1,0 +1,45 @@
+<resources>
+    <string name="appName">Imovie</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="clapperboard">clapperboard</string>
+    <string name="eMail">e-mail</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="signInMessage">Do not have an account yet? Click here.</string>
+    <string name="stayConnected">Stay connected?</string>
+    <string name="newUser">New User</string>
+    <string name="newAccount">New Account</string>
+    <string name="insert">Insert</string>
+    <string name="list">List</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    <string name="title">Title</string>
+    <string name="gender">Gender</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_edit">Edit</string>
+    <string name="title_activity_delete">Delete</string>
+    <string name="actual_title">Actual Title</string>
+    <string name="new_title">New Title</string>
+    <string name="new_gender">New Gender</string>
+    <string name="title_Activity_About">About</string>
+    <string name="About">About</string>
+    <string name="menu">Menu</string>
+    <string name="developers">Developers</string>
+    <string name="diego">Diego Saraiva</string>
+    <string name="bruno">Bruno Gea</string>
+    <string name="eduardo">Eduardo Matoso</string>
+    <string name="felipe">Felipe da Costa Silva</string>
+    <string name="rafael">Rafael Lagreca</string>
+    <string name="version">Version 1.0</string>
+    <string name="title_activity_insert">Insert</string>
+    <string name="id">Id</string>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "643019036809",
+    "firebase_url": "https://imovie-1b35a.firebaseio.com",
+    "project_id": "imovie-1b35a",
+    "storage_bucket": "imovie-1b35a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643019036809:android:b9ac752e704b759f808e58",
+        "android_client_info": {
+          "package_name": "br.com.fiap.trabalhomobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643019036809-81pkfosgki4hlgutgjmtga6b5t9qua7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.fiap.trabalhomobile",
+            "certificate_hash": "b9c84e208f4491d0bdc900907a002445ab585439"
+          }
+        },
+        {
+          "client_id": "643019036809-gh0f4pu65a7l62r8a7mfi97kd2h06s2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeKhDLbZav1aOmYW0HPVC_vflLdoDTvaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643019036809-gh0f4pu65a7l62r8a7mfi97kd2h06s2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

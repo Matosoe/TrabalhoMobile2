@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.fiap.trabalhomobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/appName"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.list.ListActivity"
+            android:label="@string/title_activity_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.about.AboutActivity"
+            android:label="@string/title_Activity_About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.delete.DeleteActivity"
+            android:label="@string/title_activity_delete"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.edit.EditActivity"
+            android:label="@string/title_activity_edit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.insert.InsertActivity"
+            android:label="@string/title_activity_insert"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.signup.SignUpActivity"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.menu.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:theme="@style/FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
